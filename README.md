@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
     '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
@@ -17,3 +18,7 @@ http://www.youtube.com/user/c9ide.
 Happy coding!
 The Cloud9 IDE team
 
+=======
+# selfeval
+Determine whether students are ready to take CSCE 629, so they can decide whether to sign up.
+>>>>>>> 4e0f1be6578743ec2e206d19ca16c0ca3b9b6af5
