@@ -4,7 +4,6 @@ RSpec.describe "questions/index", type: :view do
   before(:each) do
     assign(:questions, [
       Question.create!(
-        :id => 2,
         :content => "Content",
         :option1 => "Option1",
         :option2 => "Option2",
@@ -12,7 +11,6 @@ RSpec.describe "questions/index", type: :view do
         :option4 => "Option4"
       ),
       Question.create!(
-        :id => 2,
         :content => "Content",
         :option1 => "Option1",
         :option2 => "Option2",
@@ -24,7 +22,6 @@ RSpec.describe "questions/index", type: :view do
 
   it "renders a list of questions" do
     render
-    assert_select "tr>td", :text => 2.to_s, :count => 2
     assert_select "tr>td", :text => "Content".to_s, :count => 2
     assert_select "tr>td", :text => "Option1".to_s, :count => 2
     assert_select "tr>td", :text => "Option2".to_s, :count => 2

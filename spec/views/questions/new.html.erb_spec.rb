@@ -3,7 +3,6 @@ require 'rails_helper'
 RSpec.describe "questions/new", type: :view do
   before(:each) do
     assign(:question, Question.new(
-      :id => 1,
       :content => "MyString",
       :option1 => "MyString",
       :option2 => "MyString",
@@ -16,8 +15,6 @@ RSpec.describe "questions/new", type: :view do
     render
 
     assert_select "form[action=?][method=?]", questions_path, "post" do
-
-      assert_select "input[name=?]", "question[id]"
 
       assert_select "input[name=?]", "question[content]"
 
