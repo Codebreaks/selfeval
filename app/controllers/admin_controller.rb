@@ -1,4 +1,4 @@
-class QuestionsController < ApplicationController
+class AdminController < ApplicationController
   def add
   end
 

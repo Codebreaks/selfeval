@@ -1,11 +1,11 @@
 Rails.application.routes.draw do
-  get 'questions/add'
+  get 'admin/add'
 
-  get 'questions/edit'
+  get 'admin/edit'
 
-  get 'questions/delete'
+  get 'admin/delete'
 
-  get 'questions/hide'
+  get 'admin/hide'
 
   resources :users
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
