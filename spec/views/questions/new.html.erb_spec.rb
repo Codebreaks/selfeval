@@ -1,8 +1,8 @@
 require 'rails_helper'
 
-RSpec.describe "questions/edit", type: :view do
+RSpec.describe "questions/new", type: :view do
   before(:each) do
-    @question = assign(:question, Question.create!(
+    assign(:question, Question.new(
       :id => 1,
       :content => "MyString",
       :option1 => "MyString",
@@ -12,10 +12,10 @@ RSpec.describe "questions/edit", type: :view do
     ))
   end
 
-  it "renders the edit question form" do
+  it "renders new question form" do
     render
 
-    assert_select "form[action=?][method=?]", question_path(@question), "post" do
+    assert_select "form[action=?][method=?]", questions_path, "post" do
 
       assert_select "input[name=?]", "question[id]"
 
