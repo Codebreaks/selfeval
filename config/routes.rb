@@ -2,14 +2,6 @@ Rails.application.routes.draw do
   resources :questions
   get 'questions/feedback'
 
-  get 'questions/add'
-
-  get 'questions/edit'
-
-  get 'questions/delete'
-
-  get 'questions/hide'
-
   get 'questions/answer'
 
   resources :users
