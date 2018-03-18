@@ -1,5 +1,6 @@
-class AdminController < ApplicationController
+class QuestionsController < ApplicationController
   def add
+    
   end
 
   def edit
