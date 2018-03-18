@@ -1,7 +1,9 @@
 <h1> Add Question </h1>
 
-<%= f.text_field :content %>
-<%= f.text_field :option1 %>
-<%= f.text_field :option2 %>
-<%= f.text_field :option3 %>
-<%= f.text_field :option4 %>
+<% form_for @task do |form| %>
+<ol class="formList">
+  <li>
+    <%= form.label :content, "Content" %>
+    <%= form.text_field :content %>
+  </li>
+</ol>
