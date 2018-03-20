@@ -45,6 +45,12 @@ group :development, :test do
   gem 'selenium-webdriver'
 end
 
+group :test, :development do
+  gem 'cucumber-rails', :require => false
+  # database_cleaner is not required, but highly recommended
+  gem 'database_cleaner'
+end
+
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console', '3.5.1'
