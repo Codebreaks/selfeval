@@ -4,5 +4,3 @@ Given(/^the following questions exist:$/) do |table|
     Question.create(hash)
   end
 end
-
-
