@@ -13,13 +13,12 @@
 
   <div class="field">
     <%= form.label :content %>
-    <%= form.text_field :content, id: :question_content, :cols => 100, :rows => 100 %>
+    <%= form.text_field :content, size: "100x20", id: :question_content %>
   </div>
 
   <div class="field">
     <%= form.label :option1 %>
     <%= form.text_field :option1, id: :question_option1 %>
-  </div>
 
   <div class="field">
     <%= form.label :option2 %>
