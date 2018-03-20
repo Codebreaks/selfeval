@@ -36,7 +36,7 @@ describe TestQuestionsController do
       expect(response).to render_template(:index)
     end
     it 'should determine which of the answers are correct' do
-      correctness = {id_1=>true, id_2=>false, id_3=>true}
+      correctness = {id_1=>"[true]", id_2=>"[false]", id_3=>"[true]"}
       get :index, :params => parameters
       expect(assigns(:correctness)).to eql(correctness)
     end
