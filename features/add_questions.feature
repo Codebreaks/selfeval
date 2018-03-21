@@ -19,3 +19,9 @@ Feature:Add a new question
   And I follow "Back"
   Then I should be redirected to the Question list Page
   
+  Scenario: adding a new question
+  When I am on the Question List Page
+  And I follow "New Question"
+  Then I should be redirected to New Question Page
+
+  
