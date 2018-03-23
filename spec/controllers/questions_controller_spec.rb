@@ -42,6 +42,7 @@ RSpec.describe QuestionsController, type: :controller do
   let(:valid_session) { {} }
 
   describe "GET #index" do
+    
     it "returns a success response" do
       question = Question.create! valid_attributes
       get :index, params: {}, session: valid_session
