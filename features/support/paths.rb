@@ -17,6 +17,9 @@ module NavigationHelpers
       '/'
     when /^the New Question Page$/  then '/questions/new'
     when /^the Question List Page$/  then '/questions'
+      
+    when /^the Edit Questions Page$/  then '/questions'  
+      
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:
     #

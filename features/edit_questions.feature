@@ -21,8 +21,4 @@ Feature: modify an existing question
   When I am on the homepage
   And I follow "Destroy" of "1"
   Then I should be redirected to the homepage
-  
-  Scenario: updating an existing question
-    When I am on the edit question page
-    And I follow "Update Question" of "1"
-    Then I should be redirected to the Show page of "1"
+  And "Question 1" should not be in the Question List

@@ -24,3 +24,7 @@ end
 Then("I should be redirected to the Show page of {string}") do |string|
   visit "/questions/#{string}"
 end
+
+Then("{string} should not be in the Question List") do |string|
+  Question.find_by_content(string).should_not eq string
+end

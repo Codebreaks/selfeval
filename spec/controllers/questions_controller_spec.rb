@@ -28,6 +28,10 @@ RSpec.describe QuestionsController, type: :controller do
   # This should return the minimal set of attributes required to create a valid
   # Question. As you add validations to Question, be sure to
   # adjust the attributes here as well.
+  before(:each) do
+    @article = Factory(:question)
+  end
+  
   let(:valid_attributes) {
     FactoryGirl.build(:content, :option1, :option2, :option3, :option4).attributes.symbolize_keys
   }
@@ -42,10 +46,8 @@ RSpec.describe QuestionsController, type: :controller do
   let(:valid_session) { {} }
 
   describe "GET #index" do
-    it "returns a success response" do
-      question = Question.create! valid_attributes
-      get :index, params: {}, session: valid_session
-      expect(response).to be_success
+    it 
+    
     end
   end
 

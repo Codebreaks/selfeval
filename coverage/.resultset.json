@@ -195,19 +195,9 @@
         1,
         1,
         null
-      ],
-      "/home/ec2-user/environment/selfeval/app/mailers/application_mailer.rb": [
-        0,
-        0,
-        0,
-        0
-      ],
-      "/home/ec2-user/environment/selfeval/app/jobs/application_job.rb": [
-        0,
-        0
       ]
     },
-    "timestamp": 1521825073
+    "timestamp": 1521827611
   },
   "RSpec": {
     "coverage": {
@@ -223,6 +213,20 @@
         1,
         null
       ],
+      "/home/ec2-user/environment/selfeval/app/models/question.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "/home/ec2-user/environment/selfeval/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
       "/home/ec2-user/environment/selfeval/app/controllers/questions_controller.rb": [
         1,
         1,
@@ -230,7 +234,7 @@
         null,
         null,
         1,
-        1,
+        0,
         null,
         null,
         null,
@@ -240,7 +244,7 @@
         null,
         null,
         1,
-        1,
+        0,
         null,
         null,
         null,
@@ -303,42 +307,6 @@
         1,
         1,
         null
-      ],
-      "/home/ec2-user/environment/selfeval/app/models/question.rb": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null
-      ],
-      "/home/ec2-user/environment/selfeval/app/models/application_record.rb": [
-        1,
-        1,
-        null
-      ],
-      "/home/ec2-user/environment/selfeval/app/mailers/application_mailer.rb": [
-        0,
-        0,
-        0,
-        0
-      ],
-      "/home/ec2-user/environment/selfeval/app/jobs/application_job.rb": [
-        0,
-        0
-      ],
-      "/home/ec2-user/environment/selfeval/app/channels/application_cable/connection.rb": [
-        0,
-        0,
-        0,
-        0
-      ],
-      "/home/ec2-user/environment/selfeval/app/channels/application_cable/channel.rb": [
-        0,
-        0,
-        0,
-        0
       ],
       "/home/ec2-user/environment/selfeval/app/models/user.rb": [
         0,
@@ -429,6 +397,6 @@
         0
       ]
     },
-    "timestamp": 1521819979
+    "timestamp": 1521830131
   }
 }
