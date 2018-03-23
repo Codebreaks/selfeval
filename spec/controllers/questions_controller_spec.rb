@@ -29,7 +29,7 @@ RSpec.describe QuestionsController, type: :controller do
   # Question. As you add validations to Question, be sure to
   # adjust the attributes here as well.
   let(:valid_attributes) {
-    skip("Add a hash of attributes valid for your model")
+    FactoryGirl.build(:content, :option1, :option2, :option3, :option4).attributes.symbolize_keys
   }
 
   let(:invalid_attributes) {

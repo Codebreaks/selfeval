@@ -23,5 +23,4 @@ Feature:Add a new question
   When I am on the Question List Page
   And I follow "New Question"
   Then I should be redirected to New Question Page
-
-  
+  And I should see "Question was successfully created"

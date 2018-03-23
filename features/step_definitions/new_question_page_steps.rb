@@ -7,6 +7,6 @@ Then("I should be redirected to the Question Successfully Created Page") do
 end
 
 Then("I should be redirected to the Question list Page") do
- visit questions_path 
- end
+  visit questions_path 
+end
  

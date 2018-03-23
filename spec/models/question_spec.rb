@@ -2,7 +2,6 @@ require 'rails_helper'
 
 RSpec.describe Question, type: :model do
  
-   
    it "is not valid without content" do
        question = Question.new(content: nil)
   expect(question).to_not be_valid
