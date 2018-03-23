@@ -1,10 +1,3 @@
-Given("the following questions exist:") do |table|
-  # table is a Cucumber::MultilineArgument::DataTable
-  table.hashes.each do |question|
-      Question.create question
-  end
-end
-
 When("I follow {string} of {string}") do |string, string2|
   if (string == "Edit") then   
     visit "/questions/#{string2}/edit"
