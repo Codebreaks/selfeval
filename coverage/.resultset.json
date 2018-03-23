@@ -118,7 +118,11 @@
         null,
         null,
         1,
+<<<<<<< HEAD
         5,
+=======
+        6,
+>>>>>>> 6323c64bc1ce60d9dfc5820c4cbfb53de3ed2e20
         null,
         null,
         null,
@@ -178,7 +182,11 @@
         1,
         null,
         1,
+<<<<<<< HEAD
         3,
+=======
+        2,
+>>>>>>> 6323c64bc1ce60d9dfc5820c4cbfb53de3ed2e20
         null,
         null,
         null,
@@ -197,7 +205,11 @@
         null
       ]
     },
+<<<<<<< HEAD
     "timestamp": 1521827611
+=======
+    "timestamp": 1521829681
+>>>>>>> 6323c64bc1ce60d9dfc5820c4cbfb53de3ed2e20
   },
   "RSpec": {
     "coverage": {
@@ -397,6 +409,10 @@
         0
       ]
     },
+<<<<<<< HEAD
     "timestamp": 1521830131
+=======
+    "timestamp": 1521821680
+>>>>>>> 6323c64bc1ce60d9dfc5820c4cbfb53de3ed2e20
   }
 }

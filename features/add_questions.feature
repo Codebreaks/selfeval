@@ -1,6 +1,6 @@
 Feature:Add a new question
   
-  As a student
+  As an admin
   So that I can add a  question not on the database
   I want to add a new question
   
