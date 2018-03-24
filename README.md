@@ -1,9 +1,12 @@
 # README
 
-# Ruby on Rails Signin application
+# Authentication and Sign-Up Module
 
-This is the Signin application for TAMU 629 Self Evaluation System
-by [Muhammad Emad-ud-din (emaad22@tamu.edu)]
+This is the Authentication and Sign-Up module for TAMU 629 Self Evaluation System
+by Muhammad Emad-ud-din and Xien Thomas
+
+The deployed app can be accessed at
+https://dry-wildwood-38631.herokuapp.com/
 
 ## License
 
