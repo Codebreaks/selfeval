@@ -5,12 +5,6 @@ Given("the following questions exist:") do |table|
 	end
 end
 
-When("I follow {string} of {string}") do |string, string2|
-  if (string=="Show") then
-      visit "/questions/#{string2}"
-  end
-end
-
 Then("the content of {string} should be {string}") do |id, content|
   Question.find_by_id(id).content.should eq content 
 end

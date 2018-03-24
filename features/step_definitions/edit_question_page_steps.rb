@@ -1,5 +1,7 @@
 When("I follow {string} of {string}") do |string, string2|
-  if (string == "Edit") then   
+   if (string=="Show") then
+      visit "/questions/#{string2}"
+  elsif (string == "Edit") then   
     visit "/questions/#{string2}/edit"
   elsif (string == "Destroy")
     visit "/questions/#{string2}"
